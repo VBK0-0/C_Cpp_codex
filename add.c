@@ -1,3 +1,5 @@
+// This is a simple C program that takes two integers as input and prints their sum.
+
 #include <stdio.h>
 
 int main()
@@ -12,3 +14,4 @@ int main()
     printf("The sum is %d\n", a + b);
     return 0;
 }
+
