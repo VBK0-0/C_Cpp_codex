@@ -2,7 +2,7 @@
 main()
 {
     char ch;
-    printf("Enter one charecter:");
+    printf("Enter one charecter:");     //#
     scanf("%c",&ch);
-    printf("ASCII value is: %d", ch);
+    printf("ASCII value is: %d", ch);   //35
 }
