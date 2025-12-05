@@ -3,7 +3,7 @@ int main()
 {
     long int limit, n, i, temp, r, fact, sum;
     printf("Enter the limit: ");
-    scanf("%d", &limit);
+    scanf("%ld", &limit);
     for(n=1; n<=limit; n++)
     {
         temp = n;
@@ -20,6 +20,6 @@ int main()
             temp = temp/10;
         }
         if(n==sum)
-        printf("%d, ",n);
+        printf("%ld, ",n);
     } 
 }
