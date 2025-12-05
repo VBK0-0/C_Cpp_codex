@@ -10,7 +10,7 @@ int main()
         sum = 0;
         while(temp>0)
         {
-            r = temp%10;
+              r = temp%10;
             fact = 1;
             for(i = r; i>=1; i--)
             {
