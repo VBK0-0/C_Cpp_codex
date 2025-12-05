@@ -18,5 +18,4 @@ int main()
             temp = temp/10;
         }
         printf("The sum of the digits of %d is: %d ", n, sum);
-    
 }
