@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+int fact(int n);
+
+int main()
 {
     int n, res;
     printf("Enter n value: ");
