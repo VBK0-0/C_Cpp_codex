@@ -6,9 +6,10 @@ struct employee
     char ename[20]; // 20 - bytes 
     float esal;  // 4 - bytes
 };
-main()
+int main()
 {
-    struct employee e= {5, "Bala", 1,00,000}; 
-    printf("Size of Employee: %lld \n", sizeof(e));  // Size of Employee: 28 
-    printf("Size of employee: %lld \n", sizeof(struct employee)); // Size of Employee: 28 
+    struct employee e= {5, "Bala", 100000.0f}; 
+    printf("Size of Employee: %zu \n", sizeof(e));  // Size of Employee: 28 
+    printf("Size of employee: %zu \n", sizeof(struct employee)); // Size of Employee: 28 
+    return 0;
 }
