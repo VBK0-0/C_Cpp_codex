@@ -1,1 +1,1 @@
-Contains all my Week-1 code
+Contains all my C code
